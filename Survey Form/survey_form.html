@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="survey_form.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+
+    <div class="Form-body">
+
+    <form class="new-form" action="index.html" method="post">
+      <h2>Event Feedback Form</h2>
+      <p>Thank you for being part of our 5 day emerging technologies event. Your presence made the event a grand success. We wish to conduct more such events in future and we would really appreciate if you could spare a minute to fill up the feedback form. Meanwhile, we plan on releasing your workshop certificates in a week. Thank you for being part of this event.</p>
+
+      <div class="Name">
+        <h4>Name</h4>
+        <input placeholder="enter your name here" type="text" name="" value="" required>
+
+      </div>
+
+      <div class="Email">
+        <h4>Email</h4>
+        <input placeholder="enter your email ID here" type="email" name="" value="" required>
+
+      </div>
+
+      <div class="Query-one">
+        <h4>Which workshops did you like the most?</h4>
+        <input type="checkbox" id="Artificial Intelligence" name="workshop" value="Artificial Intelligence">
+        <label for="Artificial Intelligence">Artificial Intelligence</label><br>
+        <input type="checkbox" id="Machine Learning" name="workshop" value="Machine Learning">
+        <label for="Machine Learning">Machine Learning</label><br>
+        <input type="checkbox" id="Deep Learning" name="workshop" value="Deep Learning">
+        <label for="Deep Learning">Deep Learning</label><br>
+        <input type="checkbox" id="Blockchain Development" name="workshop" value="Blockchain Development">
+        <label for="Blockchain Developmen">Blockchain Developmen</label>
+
+      </div>
+
+      <div class="Query-two">
+        <h4>Would you like to attend a similar event in future?</h4>
+        <input type="radio" id="Yes" name="Choice" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="Choice" value="No">
+        <label for="No">No</label>
+
+        </div>
+
+        <div class="Final-Query">
+          <h4>How do you want us to improve our future events?</h4>
+          <textarea placeholder="enter your feedback here" name="feedback" rows="5" cols="50" required></textarea>
+          <br>
+            <input type="submit" name="send" value="send">
+
+
+        </div>
+
+
+
+    </form>
+
+  </div>
+
+  </body>
+</html>

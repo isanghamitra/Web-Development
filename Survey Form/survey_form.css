@@ -1,0 +1,22 @@
+body {
+
+  font-family: cursive;
+  padding-left: 520px;
+  color: white;
+}
+
+.Form-body {
+
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 600px;
+  height: 1500px;
+  background: url('https://i.pinimg.com/originals/89/a4/64/89a46425b4a85a62e0ee83d3823e7788.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-form p {
+  font-size: 12px;
+  border: 1px solid #FFFFFF;
+}
